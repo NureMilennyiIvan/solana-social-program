@@ -1,0 +1,61 @@
+.uiLayout {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: #f0f2f5;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.uiLayoutHeader {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 20px 40px;
+    background: #1f1d36;
+    color: #ffffff;
+}
+.walletButton {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-right: 20px;
+}
+
+.uiLayoutNav ul {
+    display: flex;
+    gap: 24px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.uiLayoutNav li {
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+
+.uiLayoutNav a {
+    text-decoration: none;
+    color: #ffffff;
+    transition: color 0.3s;
+}
+
+.uiLayoutNav a:hover {
+    color: #a29bfe;
+}
+
+.uiLayoutContent {
+    flex: 1;
+    padding: 40px;
+    background: #ffffff;
+    overflow-y: auto;
+}
+
+.uiLayoutContent p {
+    text-align: center;
+    font-size: 18px;
+    color: #555555;
+}
